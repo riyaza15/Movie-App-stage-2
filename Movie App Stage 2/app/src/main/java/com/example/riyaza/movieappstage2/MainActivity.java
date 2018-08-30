@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.List
     ArrayList<Movie> movies= new ArrayList<Movie>();
     private MovieAdapter mAdapter;
     private RecyclerView mMovieList;
-    private static final String POP_MOVIE_REQUEST_URL ="https://api.themoviedb.org/3/movie/popular?api_key=a7f21d9c7d57ab8d56b4cf476419964d";
-    private static final String TOP_MOVIE_REQUEST_URL ="https://api.themoviedb.org/3/movie/top_rated?api_key=a7f21d9c7d57ab8d56b4cf476419964d";
+    private static final String POP_MOVIE_REQUEST_URL ="https://api.themoviedb.org/3/movie/popular?api_key=yourkey";
+    private static final String TOP_MOVIE_REQUEST_URL ="https://api.themoviedb.org/3/movie/top_rated?api_key=yourkey";
     private Toast mToast;
     private int currentMenuId;
     private int menuId;
