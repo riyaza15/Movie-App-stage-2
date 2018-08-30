@@ -40,7 +40,7 @@ public class DetailActivity extends AppCompatActivity implements TrailerAdapter.
     private final static String BASE_MOVIE_DB_URL = "http://api.themoviedb.org/3/movie/";
     public static final String YOUTUBE_BASE_PATH = "https://www.youtube.com/watch?v=";
     private final static String API_KEY_PARAM = "api_key";
-    private final static String API_KEY = "a7f21d9c7d57ab8d56b4cf476419964d";
+    private final static String API_KEY = "yourkey";
     private final static String REVIEW_PATH = "reviews";
     private final static String VIDEO_PATH = "videos";
     private static final String YOUTUBE_BASE_URL = "http://www.youtube.com";
